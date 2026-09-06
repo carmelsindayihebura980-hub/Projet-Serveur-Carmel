@@ -1,0 +1,62 @@
+# .gitignore for Projet-Serveur-Carmel
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+*.zip
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / editor files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Backup files
+*~
+*.bak
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+.Spotlight-v100
+.Trashes
+ehthumbs.db
+._*
+.Spotlight-v100
+._*
+.Spotlight
+Macfile
+.DBDocuments‑_FC...
+._*
+.Spotlight–?
+._*
+.Spotlight?
+MacOSX
+._*
+.?.DS_Store?
+.Spotlight–?
+MacOS
+._*
+.Spotlight–?
